@@ -25,7 +25,17 @@ article section{
     box-sizing: border-box; /* Asegura que el padding y el border no afecten el tamaño del elemento */
     padding: 10px;
 }
+.results{
+    box-sizing: border-box;
+    padding: 1em;
+    border-radius: 0 0 2em 2em;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 
+    -webkit-border-radius: 0 0 2em 2em;
+    -moz-border-radius: 0 0 2em 2em;
+    -ms-border-radius: 0 0 2em 2em;
+    -o-border-radius: 0 0 2em 2em;
+}
 
 
 .attribution { grid-column: 1/3; font-size: 11px; text-align: center; }
