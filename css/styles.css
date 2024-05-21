@@ -79,17 +79,53 @@ article section{
     padding: 0;
 }
 .summary ul li{
-    background-color: lightgreen;
+    padding: 1rem;
     margin-bottom: 1rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.summary ul> :nth-child(1){
+    background-color: hsla(0, 100%, 67%, 25%);
+    color:  hsl(0, 100%, 67%);
+}
+.summary ul> :nth-child(2){
+    background-color: hsla(39, 100%, 56%, 25%);
+    color: hsl(39, 100%, 56%);
+}
+.summary ul> :nth-child(3){
+    background-color: hsla(166, 100%, 37%, 25%);
+    color: hsl(166, 100%, 37%);
+}
+.summary ul> :nth-child(4){
+    background-color: hsl(234, 85%, 45%, 25%);
+    color:  hsl(234, 85%, 45%);
+}
+.score{
+    display: flex;
+    align-content: center;
+}
+.score p{
+    margin: 0;
+    color: hsl(224, 30%, 27%);
+    font-weight: 800;
+}
+.score p span{
+    color: hsla(224, 30%, 27%, 50%);
 }
 .summary ul li div{
     display: inline-block;
 }
 .summary ul li div :nth-child(n){
     display: inline-block;
-
+    margin: 0;
 }
 .summary ul li div .icon{
+
 }
 .attribution { grid-column: 1/3; font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
