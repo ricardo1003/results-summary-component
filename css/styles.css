@@ -45,8 +45,11 @@ article section{
     -o-border-radius: 2rem;
 }
 .mainscore{
-    height: 120px;
-    width: 120px;
+    width: 70%;
+    aspect-ratio: 1/1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -55,10 +58,10 @@ article section{
     -o-border-radius: 50%;
 }
 .mainscore h2{
+    display: inline-block;
     color: white;
     font-size: 3em;
-    margin:1rem 0 0 0;
-    display: block;
+    margin:0;
 }
 .mainscore p{
     margin: 0;
