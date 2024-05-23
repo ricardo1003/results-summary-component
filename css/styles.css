@@ -18,6 +18,7 @@ main{
 article{
     display: flex;
     flex-wrap: wrap;
+    background-color: white;
 }
 article section{
     flex: 1 1 277px;
@@ -71,7 +72,6 @@ article section{
     max-width: 18rem;
 }
 .summary{
-    background-color: white;
     padding: 2rem;
     box-shadow: 10px 10px 20px hsla(241, 100%, 89%);
     border-radius: 0 2em 2rem 0;
