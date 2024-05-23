@@ -13,19 +13,14 @@ main{
     grid-column: 1/3;
     display: block;
     margin: 0 auto;
-    padding-top: calc(11.5vw  - 7vh);
+    padding-top: calc(8.31vw  - 7vh);
 }
 article{
     display: flex;
     flex-wrap: wrap;
-    border-radius: 2rem;
-    -webkit-border-radius: 2rem;
-    -moz-border-radius: 2rem;
-    -ms-border-radius: 2rem;
-    -o-border-radius: 2rem;
 }
 article section{
-    flex: 1 1 100px;
+    flex: 1 1 277px;
     box-sizing: border-box;
     padding: 10px;
 }
@@ -76,6 +71,7 @@ article section{
     max-width: 18rem;
 }
 .summary{
+    background-color: white;
     padding: 2rem;
     box-shadow: 10px 10px 20px hsla(241, 100%, 89%);
     border-radius: 0 2em 2rem 0;
